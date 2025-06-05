@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dobro ou Triplo</title>
+  </head>
+  <body>
+    <h2>Calculadora: Dobro ou Triplo</h2>
+    <form action="5exer_processa.php" method="post">
+      <label for="numero">Digite um número:</label>
+      <input type="number" name="numero" id="numero" required /><br /><br />
+
+      <label for="operacao">Escolha a operação:</label><br />
+      <input type="radio" name="operacao" value="dobro" id="dobro" required />
+      <label for="dobro">Dobro</label><br />
+
+      <input type="radio" name="operacao" value="triplo" id="triplo" />
+      <label for="triplo">Triplo</label><br /><br />
+
+      <input type="submit" value="Calcular" />
+    </form>
+  </body>
+</html>
